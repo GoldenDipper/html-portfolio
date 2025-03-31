@@ -8,3 +8,58 @@
  .red-text{
     color: red;
  }
+
+ #app{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container-fluid{
+  background-color: #1A2153;
+  align-items: center;
+}
+.navbar-brand{
+  align-items: center;
+}
+.nav-item > a{
+  color: white !important;
+}
+.navbar-toggler{
+  background-color: white !important;
+  color: orange !important;
+}
+
+.container-fluid{
+  display: flex;
+  color: aliceblue;
+  justify-content: center;
+  align-items: center;
+  left: 0;
+  position: fixed;
+  top: 0;
+  padding: 10px;
+  width: 100%;
+  z-index: 999;
+}
+.main{
+  display: grid;
+  background-color: purple;
+  height: 100vh;
+  width: 100%;
+  
+  grid-template-columns: 10% auto 10%;
+}
+.item{
+  background-color: white;
+}
+.sidebar {
+  background-color: rgb(255, 182, 47);
+}
+
+.white2 {
+  background-color:  #1A2153;
+}
+
+.header > *{
+  color: aliceblue;
+  padding: 10px;
+  margin: .5rem;
+}
